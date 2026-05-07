@@ -302,7 +302,7 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.75, duration: 0.8 }}
             className="text-sm font-mono tracking-widest text-purple-400/70 uppercase mb-4"
           >
-            Desenvolvedor WordPress · Elementor · ACF · PHP Puro
+            Desenvolvedor WordPress · Next.js · TypeScript · PHP Puro
           </motion.p>
 
           {/* About - LinkedIn description placeholder */}
@@ -310,9 +310,9 @@ export default function Home() {
             initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.9, duration: 0.8 }}
             className="text-base text-white/50 max-w-2xl mx-auto mb-12 leading-relaxed"
           >
-            Desenvolvedor web especializado em WordPress com foco em resultados. Crio sites institucionais, e-commerces e portais de alto desempenho,
+            Desenvolvedor web especializado em WordPress e Next.js com foco em resultados. Crio sites institucionais, e-commerces e portais de alto desempenho,
             unindo design com Elementor, campos avançados via ACF e lógica customizada em PHP puro —
-            sempre com olho em performance, SEO técnico e experiência do usuário.
+            sempre com olho em performance, SEO técnico e experiência do usuário. Também tenho experiência trabalhando em produtos Saas com TypeScript e frameworks modernos, garantindo soluções robustas e escaláveis para meus clientes.
           </motion.p>
 
           <motion.div
