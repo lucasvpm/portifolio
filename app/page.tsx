@@ -17,8 +17,19 @@ const LinkedinIcon = () => (
 );
 
 const projects = [
-  {
+    {
     id: 1,
+    title: "Contishop",
+    url: "https://contishop.com.br/",
+    category: "E-commerce da Continental",
+    description: "E-commerce para a Continental Pneus, com catálogo de produtos, integração com ERP e sistema de pagamento online.",
+    tags: ["WordPress", "Elementor", "PHP", "Composer", "ACF"],
+    color: "#a855f7",
+    accent: "#120a1a",
+    number: "01",
+  },
+  {
+    id: 2,
     title: "Polysign",
     url: "https://polysign.com.br",
     category: "Comunicação Visual",
@@ -26,10 +37,10 @@ const projects = [
     tags: ["WordPress", "Elementor", "PHP", "ACF"],
     color: "#a855f7",
     accent: "#120a1a",
-    number: "01",
+    number: "02",
   },
   {
-    id: 2,
+    id: 3,
     title: "Dom Valtin",
     url: "https://domvaltin.com.br",
     category: "Alfaiataria Premium",
@@ -37,10 +48,10 @@ const projects = [
     tags: ["WordPress", "WooCommerce", "Elementor", "ACF"],
     color: "#c084fc",
     accent: "#110918",
-    number: "02",
+    number: "03",
   },
   {
-    id: 3,
+    id: 4,
     title: "KV Digital",
     url: "https://kvdigital.com.br",
     category: "Agência Digital",
@@ -48,10 +59,10 @@ const projects = [
     tags: ["WordPress", "Elementor", "PHP", "SEO"],
     color: "#7c3aed",
     accent: "#0d0818",
-    number: "03",
+    number: "04",
   },
   {
-    id: 4,
+    id: 5,
     title: "Grupo Invest",
     url: "https://grupoinvest.com",
     category: "Investimentos",
@@ -59,10 +70,10 @@ const projects = [
     tags: ["WordPress", "PHP Puro", "ACF", "Elementor"],
     color: "#9333ea",
     accent: "#0f0816",
-    number: "04",
+    number: "05",
   },
   {
-    id: 5,
+    id: 6,
     title: "Ultragaz",
     url: "https://www.ultragaz.com.br",
     category: "Energia & Gás",
@@ -70,10 +81,10 @@ const projects = [
     tags: ["WordPress", "PHP Puro", "ACF", "Performance"],
     color: "#d946ef",
     accent: "#160a18",
-    number: "05",
+    number: "06",
   },
   {
-    id: 6,
+    id: 7,
     title: "Cidade 92.5",
     url: "https://cidade925.com.br",
     category: "Rádio & Entretenimento",
@@ -81,7 +92,7 @@ const projects = [
     tags: ["WordPress", "Next.js", "TypeScript", "PHP", "Streaming"],
     color: "#a21caf",
     accent: "#130819",
-    number: "06",
+    number: "07",
   },
 ];
 
@@ -89,6 +100,7 @@ const skills = [
   { name: "WordPress", level: 100, icon: "⚡" },
   { name: "Elementor", level: 100, icon: "🎨" },
   { name: "PHP Puro", level: 100, icon: "🔧" },
+  { name: "Laravel", level: 100, icon: "🔧" },
   { name: "TypeScript", level: 100, icon: "🌐" },
   { name: "Next.js", level: 100, icon: "⚛" },
   { name: "ACF", level: 100, icon: "📦" },
