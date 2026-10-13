@@ -17,6 +17,17 @@ const LinkedinIcon = () => (
 );
 
 const projects = [
+  {
+    id: 0,
+    title: "IGC Global Promotions",
+    url: "https://brzpromoigc.com.br/",
+    category: "E-commerce da Unilever",
+    description: "E-commerce para a Unilever, com catálogo de produtos, Integração avançada com o sistema REST/SOAP da SPOT, com cadastro de clientes, personalização avançada de produtos e prévias de impressão de logo em cadernos, canetas, borrachas, etc.",
+    tags: ["WordPress", "Elementor", "PHP", "Composer", "ACF"],
+    color: "#a855f7",
+    accent: "#120a1a",
+    number: "01",
+  }
     {
     id: 1,
     title: "Contishop",
@@ -26,7 +37,7 @@ const projects = [
     tags: ["WordPress", "Elementor", "PHP", "Composer", "ACF"],
     color: "#a855f7",
     accent: "#120a1a",
-    number: "01",
+    number: "02",
   },
   {
     id: 2,
@@ -37,7 +48,7 @@ const projects = [
     tags: ["WordPress", "Elementor", "PHP", "ACF"],
     color: "#a855f7",
     accent: "#120a1a",
-    number: "02",
+    number: "03",
   },
   {
     id: 3,
@@ -48,7 +59,7 @@ const projects = [
     tags: ["WordPress", "WooCommerce", "Elementor", "ACF"],
     color: "#c084fc",
     accent: "#110918",
-    number: "03",
+    number: "04",
   },
   {
     id: 4,
@@ -59,7 +70,7 @@ const projects = [
     tags: ["WordPress", "Elementor", "PHP", "SEO"],
     color: "#7c3aed",
     accent: "#0d0818",
-    number: "04",
+    number: "05",
   },
   {
     id: 5,
@@ -70,7 +81,7 @@ const projects = [
     tags: ["WordPress", "PHP Puro", "ACF", "Elementor"],
     color: "#9333ea",
     accent: "#0f0816",
-    number: "05",
+    number: "06",
   },
   {
     id: 6,
@@ -81,7 +92,7 @@ const projects = [
     tags: ["WordPress", "PHP Puro", "ACF", "Performance"],
     color: "#d946ef",
     accent: "#160a18",
-    number: "06",
+    number: "07",
   },
   {
     id: 7,
@@ -92,7 +103,7 @@ const projects = [
     tags: ["WordPress", "Next.js", "TypeScript", "PHP", "Streaming"],
     color: "#a21caf",
     accent: "#130819",
-    number: "07",
+    number: "08",
   },
 ];
 
