@@ -27,7 +27,7 @@ const projects = [
     color: "#a855f7",
     accent: "#120a1a",
     number: "01",
-  }
+  },
     {
     id: 1,
     title: "Contishop",
